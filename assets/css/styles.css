@@ -8,6 +8,7 @@
 }
 html {
   scroll-behavior: smooth;
+  user-select: none;
 }
 /*=============== CURSOR ===============*/
 
@@ -584,8 +585,8 @@ body.dark-theme{
 }
 
 .perfil__img{
-  margin-bottom: 50px;
-  margin-left: -20px;
+  margin-bottom: 25px;
+  margin-left: -10px;
 }
 
 .home__container{
@@ -646,7 +647,7 @@ body.dark-theme{
   padding-bottom: 4rem;
 }
 .about__img{
-    margin-bottom: 8px;
+    margin-bottom: 5px;
     margin-left: 0px;
 }
 .about__page.container__grid{
@@ -1102,7 +1103,7 @@ body.dark-theme{
 
   .solution_grid{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     gap: 50px;
     width: 85%;
     margin: 0 auto;
@@ -1111,6 +1112,16 @@ body.dark-theme{
     padding-inline: .5rem;
   }
 
+  .blog_main{
+    width: 85%;
+    margin: 0 auto;
+  }
+
+  .blog_photo{
+    margin: 0 auto;
+    width: 85%;
+    height: 85%;
+  }
   .about__skills-content{
     grid-template-columns: repeat(4, max-content);
   }
@@ -1122,9 +1133,20 @@ body.dark-theme{
     grid-template-columns: 320px;
     justify-content: center;
   }
+  .blog_main{
+    width: 85%;
+    margin: 0 auto;
+  }
+
+  .blog_photo{
+    margin: 0 auto;
+    width: 85%;
+    height: 85%;
+  }
+
   .solution_grid{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
   
   }
   .home__perfil{
@@ -1168,6 +1190,17 @@ body.dark-theme{
       grid-template-columns: repeat(2, 350px);
     }
 
+
+    .blog_main{
+      width: 85%;
+      margin: 0 auto;
+    }
+  
+    .blog_photo{
+      margin: 0 auto;
+      width: 85%;
+      height: 85%;
+    }
    
   .home__perfil{
     margin-top: 50px;
@@ -1175,7 +1208,7 @@ body.dark-theme{
 
   .solution_grid{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns:  1fr;
     gap: 50px;
     width: 85%;
     margin: 0 auto;
@@ -1221,6 +1254,7 @@ body.dark-theme{
 
 .blog_section{
   margin: 0 auto;
+  
 }
 
   .section{
@@ -1401,6 +1435,16 @@ body.dark-theme{
  .about__skills-img{
   width: 40px;
  }
+
+ .perfil__img{
+  margin-bottom: 50px;
+  margin-left: -25px;
+}
+
+.about__img{
+  margin-bottom: 10px;
+  margin-left: 0px;
+}
 
 }
 
